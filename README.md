@@ -138,7 +138,6 @@ This output section highlights the game’s **simplicity, responsiveness, and no
 
 The **Retro Pong Project** is more than just a fun remake of a classic arcade game — it demonstrates structured programming, logical problem-solving, and creative application of Python’s features.  
 
----
 
 ### 🎮 Engaging Gameplay Mechanics  
 - **Dynamic Ball Physics:**  
@@ -150,7 +149,6 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 - **Balanced Design:**  
   Careful tuning of paddle speed and ball velocity ensures the game remains both accessible to beginners and challenging for advanced players.  
 
----
 
 ### 🛠️ Modular & Maintainable Code Structure  
 - **Separation of Concerns:**  
@@ -162,7 +160,6 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 - **Scalable Foundation:**  
   The design supports easy integration of advanced features such as multiple balls, sound effects, or even multiplayer over a network.  
 
----
 
 ### 🚀 Skill Development & Learning Outcomes  
 - **Reinforcing Python Fundamentals:**  
@@ -176,7 +173,6 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 - **Problem-Solving Mindset:**  
   Encountered and overcame challenges such as synchronizing paddle controls, adjusting ball trajectory, and updating the scoreboard reliably.  
 
----
 
 ### 🌟 Beyond the Basics – Future Expansion Ideas  
 - Introduce **AI-driven opponent paddles** for single-player mode.  
