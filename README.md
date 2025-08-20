@@ -1,37 +1,37 @@
 # 🕹️ Retro Pong Project  
 
-Welcome to **Retro Pong**, a modern Python-based recreation of the legendary arcade game that pioneered competitive digital entertainment. This project brings back the nostalgic charm of the original Pong while leveraging clean, modular code design and object-oriented programming principles. With a structured codebase and polished gameplay mechanics, it serves as both a fun interactive experience and a showcase of Python game development practices.  
+Welcome to **Retro Pong**, a modern Python based recreation of the legendary arcade game that pioneered competitive digital entertainment. This project brings back the nostalgic charm of the original Pong while leveraging clean, modular code design and object oriented programming principles. With a structured codebase and polished gameplay mechanics, it serves as both a fun interactive experience and a showcase of Python game development practices.  
 
 ---
 
 ## 📖 Overview  
 
-The **Retro Pong Project** is more than just a game—it is a carefully engineered implementation of one of the most iconic milestones in gaming history. This project demonstrates how timeless gameplay can be rebuilt using modern programming methodologies while still retaining its nostalgic feel.  
+The **Retro Pong Project** is more than just a game. It is a carefully engineered implementation of one of the most iconic milestones in gaming history. This project demonstrates how timeless gameplay can be rebuilt using modern programming methodologies while still retaining its nostalgic feel.  
 
 At its core, this project emphasizes:  
-- **Object-Oriented Design (OOP):** Clear separation of responsibilities across multiple classes (`Ball`, `Paddle`, `Scoreboard`, and `Main Game Loop`).  
-- **Code Reusability & Scalability:** Each module is designed to be independently modifiable, allowing future enhancements like AI-controlled paddles, power-ups, or multiplayer features.  
+- **Object Oriented Design (OOP):** Clear separation of responsibilities across multiple classes (`Ball`, `Paddle`, `Scoreboard`, and `Main Game Loop`).  
+- **Code Reusability & Scalability:** Each module is designed to be independently modifiable, allowing future enhancements like AI controlled paddles, power-ups, or multiplayer features.  
 - **Readable & Maintainable Structure:** Ideal for students and developers looking to explore practical Python applications in game development.  
 
-By encapsulating both simplicity and depth, Retro Pong bridges the gap between beginner-friendly coding exercises and professional programming practices.  
+By encapsulating both simplicity and depth, Retro Pong bridges the gap between beginner friendly coding exercises and professional programming practices.  
 
 ---
 
 ## 🛠️ Technologies & Concepts Used  
 
-This project has been built with **Python** as the core language, enriched with modern libraries and programming paradigms to create a well-rounded game experience:  
+This project has been built with **Python** as the core language, enriched with modern libraries and programming paradigms to create a well rounded game experience:  
 
 - **Programming Language:** Python 3.x  
 - **Graphics & Rendering:** `turtle` module for rendering shapes and movement.  
-- **Game Loop Design:** Continuous event-driven loop to process real-time interactions.  
-- **Object-Oriented Programming (OOP):**  
+- **Game Loop Design:** Continuous event driven loop to process real time interactions.  
+- **Object Oriented Programming (OOP):**  
   - *Encapsulation:* Independent modules for the ball, paddles, and scoreboard.  
   - *Abstraction:* Simplified interactions between game objects without exposing internal logic.  
   - *Polymorphism & Inheritance (where applicable):* Flexible class design for scalability.  
 - **Collision Detection:** Mathematical logic for paddle-ball interaction and boundary detection.  
 - **Scoring & State Management:** Persistent game state updates displayed through a live scoreboard.  
 - **Modularity & Code Organization:** Files separated by functionality (`main.py`, `ball.py`, `paddle.py`, `scoreboard.py`).  
-- **Keyboard Event Handling:** Interactive controls allowing real-time gameplay.  
+- **Keyboard Event Handling:** Interactive controls allowing real time gameplay.  
 
 This combination not only strengthens the gameplay but also ensures the project doubles as a practical learning ground for fundamental computer science and software engineering concepts.  
 
