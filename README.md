@@ -39,9 +39,9 @@ This combination not only strengthens the gameplay but also ensures the project 
 
 ## 🎮 Gameplay Mechanics  
 
-Retro Pong encapsulates the essence of competitive two-player arcade fun while adhering to structured coding practices. The mechanics are designed to balance **simplicity** with **precision**:  
+Retro Pong encapsulates the essence of competitive two player arcade fun while adhering to structured coding practices. The mechanics are designed to balance **simplicity** with **precision**:  
 
-- **Two-Player Mode:** Each player controls one paddle.  
+- **Two Player Mode:** Each player controls one paddle.  
   - **Player 1 (Left Paddle):** Uses **W** (move up) and **S** (move down) keys to maneuver vertically.  
   - **Player 2 (Right Paddle):** Uses the **Up Arrow** (move up) and **Down Arrow** (move down) keys for vertical control.  
 - **Ball Dynamics:**  
@@ -50,11 +50,11 @@ Retro Pong encapsulates the essence of competitive two-player arcade fun while a
   - Missed catches award a point to the opposing player.  
 - **Scoring System:**  
   - Each successful pass beyond a paddle increments the opponent’s score.  
-  - Live updates shown on the scoreboard in real-time.  
+  - Live updates shown on the scoreboard in real time.  
 - **Progressive Difficulty (Optional Enhancements):** Ball velocity can be incrementally increased after each successful hit, enhancing competitive intensity.  
 - **Victory Conditions:** The game can be played indefinitely or until a target score is reached (customizable).  
 
-This careful balance of **responsive controls**, **predictable yet challenging physics**, and **real-time scorekeeping** ensures the gameplay feels polished, engaging, and reminiscent of the arcade era.  
+This careful balance of **responsive controls**, **predictable yet challenging physics**, and **real time scorekeeping** ensures the gameplay feels polished, engaging, and reminiscent of the arcade era.  
 
 ---
 
@@ -65,7 +65,7 @@ retro-pong-proj/
     ├── main.py         # Core game loop & orchestration
     ├── ball.py         # Ball class with movement & collision logic
     ├── paddle.py       # Paddle class with user controls
-    ├── scoreboard.py   # Scoreboard class for real-time scoring
+    ├── scoreboard.py   # Scoreboard class for real time scoring
     ├── README.md       # Project documentation
     └── sample_output.png
 ```
