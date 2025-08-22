@@ -122,8 +122,8 @@ Below is a sample screenshot of the game in action:
 ### 🖼️ What You See in the Output:  
 - **Classic Retro Arena** – A black background that mimics the old arcade display.  
 - **Dynamic Ball Physics** – The ball accelerates with each paddle hit, making the game progressively challenging.  
-- **Scoreboard on Top** – Cleanly displayed scores that update in real-time with each point.  
-- **Two-Paddle Control** – Player 1 (left) and Player 2 (right) paddles controlled via keyboard input, designed for a competitive two-player experience.  
+- **Scoreboard on Top** – Cleanly displayed scores that update in real time with each point.  
+- **Two Paddle Control** – Player 1 (left) and Player 2 (right) paddles controlled via keyboard input, designed for a competitive two player experience.  
 
 ### ✨ Why It Stands Out:  
 - Minimalist design that stays true to the original Pong legacy.  
@@ -136,7 +136,7 @@ This output section highlights the game’s **simplicity, responsiveness, and no
 
 ## ✨ Key Highlights  
 
-The **Retro Pong Project** is more than just a fun remake of a classic arcade game — it demonstrates structured programming, logical problem-solving, and creative application of Python’s features.  
+The **Retro Pong Project** is more than just a fun remake of a classic arcade game. It demonstrates structured programming, logical problem solving, and creative application of Python’s features.  
 
 
 ### 🎮 Engaging Gameplay Mechanics  
@@ -145,7 +145,7 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 - **Progressive Difficulty:**  
   Each successful paddle hit slightly increases the ball’s speed, gradually raising the challenge level and preventing the match from feeling repetitive.  
 - **Competitive Scoreboard:**  
-  An integrated scoreboard tracks points in real-time, updating seamlessly as the game progresses. This adds a clear sense of competition and victory conditions.  
+  An integrated scoreboard tracks points in real time, updating seamlessly as the game progresses. This adds a clear sense of competition and victory conditions.  
 - **Balanced Design:**  
   Careful tuning of paddle speed and ball velocity ensures the game remains both accessible to beginners and challenging for advanced players.  
 
