@@ -153,7 +153,7 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 ### 🛠️ Modular & Maintainable Code Structure  
 - **Separation of Concerns:**  
   The project is divided into multiple files (`main.py`, `paddle.py`, `ball.py`, `scoreboard.py`) — each handling a specific aspect of the game.  
-- **Object-Oriented Principles in Practice:**  
+- **Object Oriented Principles in Practice:**  
   - **Encapsulation:** Paddle, ball, and scoreboard each manage their own behaviors and properties.  
   - **Reusability:** Classes can be extended to add features like AI opponents or custom power-ups.  
   - **Readability:** The modular approach allows anyone reading the code to understand game flow at a glance.  
@@ -163,13 +163,13 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 
 ### 🚀 Skill Development & Learning Outcomes  
 - **Reinforcing Python Fundamentals:**  
-  Applying loops, conditionals, and functions in a structured, real-world project solidified core programming concepts.  
+  Applying loops, conditionals, and functions in a structured, real world project solidified core programming concepts.  
 - **Mastering Game Loops & Event Handling:**  
-  Learned how to implement continuous loops that track real-time events (keyboard inputs, object collisions) without freezing or lagging.  
-- **Strengthening Logic-Building Skills:**  
-  Designing paddle-ball interactions required step-by-step reasoning, including edge-case handling (e.g., corner collisions, missed paddle hits).  
+  Learned how to implement continuous loops that track real time events (keyboard inputs, object collisions) without freezing or lagging.  
+- **Strengthening Logic Building Skills:**  
+  Designing paddle-ball interactions required step by step reasoning, including edge case handling (e.g., corner collisions, missed paddle hits).  
 - **Application of Coordinate Systems:**  
-  Gained hands-on experience with x/y coordinates to control movement and positioning on the game screen.  
+  Gained hands on experience with x/y coordinates to control movement and positioning on the game screen.  
 - **Problem-Solving Mindset:**  
   Encountered and overcame challenges such as synchronizing paddle controls, adjusting ball trajectory, and updating the scoreboard reliably.  
 
