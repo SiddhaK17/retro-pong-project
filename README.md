@@ -170,12 +170,12 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
   Designing paddle-ball interactions required step by step reasoning, including edge case handling (e.g., corner collisions, missed paddle hits).  
 - **Application of Coordinate Systems:**  
   Gained hands on experience with x/y coordinates to control movement and positioning on the game screen.  
-- **Problem-Solving Mindset:**  
+- **Problem Solving Mindset:**  
   Encountered and overcame challenges such as synchronizing paddle controls, adjusting ball trajectory, and updating the scoreboard reliably.  
 
 
 ### 🌟 Beyond the Basics – Future Expansion Ideas  
-- Introduce **AI-driven opponent paddles** for single-player mode.  
+- Introduce **AI driven opponent paddles** for single player mode.  
 - Add **sound effects and animations** to enhance immersion.  
 - Implement **power-ups** (e.g., larger paddles, faster ball) to diversify gameplay.  
 - Extend into **multiplayer online play** using Python networking modules.  
@@ -185,7 +185,7 @@ The **Retro Pong Project** is more than just a fun remake of a classic arcade ga
 
 ## 📜 Credits  
 
-This project was developed as part of my learning journey through **"100 Days of Code: The Complete Python Pro Bootcamp" by Dr. Angela Yu**. The course provided the foundational knowledge and conceptual guidance for building the Pong game, while I worked on implementing the solution, organizing the architecture, and refining the mechanics to produce a polished, modular, and professional-grade final product.  
+This project was developed as part of my learning journey through **"100 Days of Code: The Complete Python Pro Bootcamp" by Dr. Angela Yu**. The course provided the foundational knowledge and conceptual guidance for building the Pong game, while I worked on implementing the solution, organizing the architecture, and refining the mechanics to produce a polished, modular, and professional grade final product.  
 
 Additional refinements, such as **dynamic ball speed adjustments**, **modular file separation**, and **detailed README documentation**, were added to elevate both **gameplay experience** and **code maintainability**, transforming the project from a beginner exercise into a strong showcase of practical Python skills.  
 
