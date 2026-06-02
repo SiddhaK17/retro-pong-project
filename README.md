@@ -6,7 +6,7 @@ Welcome to **Retro Pong**, a modern Python based recreation of the legendary arc
 
 ## 📖 Overview  
 
-The **Retro Pong Project** is more than just a game. It is a carefully engineered implementation of one of the most iconic milestones in gaming history. This project demonstrates how timeless gameplay can be rebuilt using modern programming methodologies while still retaining its nostalgic feel.  
+The **Retro Pong Project** is more than just a game. It is a **modular recreation** of one of the most influential **arcade titles** in gaming history, designed to demonstrate **object-oriented programming**, **event-driven architecture**, **collision detection**, and **real-time game mechanics** through a clean and maintainable **Python codebase**.
 
 At its core, this project emphasizes:  
 - **Object Oriented Design (OOP):** Clear separation of responsibilities across multiple classes (`Ball`, `Paddle`, `Scoreboard`, and `Main Game Loop`).  
@@ -27,13 +27,26 @@ This project has been built with **Python** as the core language, enriched with 
 - **Object Oriented Programming (OOP):**  
   - *Encapsulation:* Independent modules for the ball, paddles, and scoreboard.  
   - *Abstraction:* Simplified interactions between game objects without exposing internal logic.  
-  - *Polymorphism & Inheritance (where applicable):* Flexible class design for scalability.  
+  - *Inheritance & Class-Based Design:* Flexible class design for scalability.  
 - **Collision Detection:** Mathematical logic for paddle-ball interaction and boundary detection.  
 - **Scoring & State Management:** Persistent game state updates displayed through a live scoreboard.  
 - **Modularity & Code Organization:** Files separated by functionality (`main.py`, `ball.py`, `paddle.py`, `scoreboard.py`).  
 - **Keyboard Event Handling:** Interactive controls allowing real time gameplay.  
 
 This combination not only strengthens the gameplay but also ensures the project doubles as a practical learning ground for fundamental computer science and software engineering concepts.  
+
+---
+
+## 🏗️ Software Architecture
+
+The project follows a **modular, object-oriented architecture** where each major game component is encapsulated within its own **class**, promoting **separation of concerns**, **code reusability**, and **maintainability**. This design approach ensures that individual components can be developed, tested, and extended independently without affecting the overall application structure.
+
+- **main.py** – Acts as the **central game controller**, managing the **game loop**, **screen rendering**, **collision detection**, **score updates**, and overall game orchestration.
+- **paddle.py** – Defines the **Paddle** class, responsible for **player input handling**, **movement logic**, and **boundary constraints**.
+- **ball.py** – Implements the **Ball** class, managing **movement mechanics**, **collision responses**, **dynamic speed scaling**, and **position resets** after scoring events.
+- **scoreboard.py** – Contains the **Scoreboard** class, responsible for **real-time score tracking**, **score rendering**, and **game-over state management**.
+
+This clear **separation of responsibilities** improves **readability**, **scalability**, and **long-term maintainability**, while closely reflecting the architectural principles used in **game development projects**.
 
 ---
 
@@ -51,7 +64,8 @@ Retro Pong encapsulates the essence of competitive two player arcade fun while a
 - **Scoring System:**  
   - Each successful pass beyond a paddle increments the opponent’s score.  
   - Live updates shown on the scoreboard in real time.  
-- **Progressive Difficulty (Optional Enhancements):** Ball velocity can be incrementally increased after each successful hit, enhancing competitive intensity.  
+- **Progressive Difficulty:**
+  - The ball **accelerates after every successful paddle collision**, gradually increasing the **pace of the match** and rewarding **quick reflexes** and **precision**.
 - **Victory Conditions:** The game can be played indefinitely or until a target score is reached (customizable).  
 
 This careful balance of **responsive controls**, **predictable yet challenging physics**, and **real time scorekeeping** ensures the gameplay feels polished, engaging, and reminiscent of the arcade era.  
@@ -82,7 +96,7 @@ retro-pong-proj/
 
 1. Install the required dependencies (if not already present):
    ```bash
-   pip install turtle
+   Turtle Graphics is included with Python's standard library and does not require separate installation.
    ```
 
 2. **Clone the repository**
