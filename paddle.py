@@ -1,8 +1,4 @@
-import os
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 class Paddle(Turtle):
 
@@ -15,9 +11,11 @@ class Paddle(Turtle):
         self.goto(position)
 
     def go_up(self):
-        new_y = self.ycor() + 20
-        self.goto(self.xcor(), new_y)
+        if self.ycor() < 250:
+            new_y = self.ycor() + 20
+            self.goto(self.xcor(), new_y)
 
     def go_down(self):
-        new_y = self.ycor() - 20
-        self.goto(self.xcor(), new_y)
+        if self.ycor() > -250:
+            new_y = self.ycor() - 20
+            self.goto(self.xcor(), new_y)
