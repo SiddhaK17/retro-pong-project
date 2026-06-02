@@ -1,8 +1,4 @@
-import os
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 class Scoreboard(Turtle):
 
@@ -30,3 +26,12 @@ class Scoreboard(Turtle):
     def r_point(self):
         self.r_score += 1
         self.update_scoreboard()
+
+    def game_over(self, message):
+        self.clear()
+        self.goto(0, 0)
+        self.write(
+            message,
+            align="center",
+            font=("Courier", 24, "bold")
+        )
