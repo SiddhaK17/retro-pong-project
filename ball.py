@@ -1,8 +1,4 @@
-import os
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 class Ball(Turtle):
 
