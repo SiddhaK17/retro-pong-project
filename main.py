@@ -1,7 +1,3 @@
-import os
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Ball
@@ -26,6 +22,7 @@ screen.onkey(r_paddle.go_down, "Down")
 screen.onkey(l_paddle.go_up, "w")
 screen.onkey(l_paddle.go_down, "s")
 
+WINNING_SCORE = 10
 
 game_is_on = True
 while game_is_on:
@@ -51,5 +48,13 @@ while game_is_on:
         ball.reset_position()
         scoreboard.r_point()
 
+    # End game if someone reaches the winning score
+    if scoreboard.l_score >= WINNING_SCORE:
+        scoreboard.game_over("Left Player Wins!")
+        game_is_on = False
+    
+    if scoreboard.r_score >= WINNING_SCORE:
+        scoreboard.game_over("Right Player Wins!")
+        game_is_on = False
 
 screen.exitonclick()
