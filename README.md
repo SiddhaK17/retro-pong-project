@@ -75,7 +75,7 @@ This careful balance of **responsive controls**, **predictable yet challenging p
 ## 📂 Project Structure
 
 ```
-retro-pong-proj/
+Retro-Pong-Project/
     ├── main.py         # Core game loop & orchestration
     ├── ball.py         # Ball class with movement & collision logic
     ├── paddle.py       # Paddle class with user controls
@@ -101,12 +101,12 @@ retro-pong-proj/
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/retro-pong-proj.git
+   git clone https://github.com/your-username/Retro-Pong-Project.git
    ```
 
 3. **Navigate to the project folder**
    ```bash
-   cd retro-pong-proj
+   cd Retro-Pong-Project
    ```
 
 > 💡 **Optional – Windows Only:** If you encounter errors related to `TCL_LIBRARY` or `TK_LIBRARY`, ensure that your Python installation's Tcl paths are correctly set using `os.environ` at the beginning of your script:
